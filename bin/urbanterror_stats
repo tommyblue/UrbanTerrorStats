@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.push File.join(File.dirname(__FILE__), "/../lib" )
+
+require 'urbanterror_stats'
+
+@ut_stats = UrbanterrorStats.new
+@ut_stats.start
