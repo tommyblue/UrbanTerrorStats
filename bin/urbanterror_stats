@@ -3,5 +3,5 @@ $LOAD_PATH.push File.join(File.dirname(__FILE__), "/../lib" )
 
 require 'urbanterror_stats'
 
-@ut_stats = UrbanterrorStats.new
+@ut_stats = UrbanterrorStats::Base.new(ARGV[0])
 @ut_stats.start

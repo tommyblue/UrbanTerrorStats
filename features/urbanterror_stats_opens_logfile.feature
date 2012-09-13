@@ -5,4 +5,4 @@ Feature: UrbanterrorStats opens the log file
     Scenario: Start reading logfile
         Given I am started
         When I find the logfile
-        Then I start analyzing at least a game
+        Then I start analyzing the logfile
